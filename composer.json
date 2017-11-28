@@ -17,7 +17,8 @@
     "require": {
         "php": ">=5.3.3",
         "phalapi/kernal": "2.1.*",
-        "phalapi/task": "dev-master"
+        "phalapi/task": "dev-master",
+        "jaeger/querylist": "^3.2"
     },
     "autoload": {
         "files": [

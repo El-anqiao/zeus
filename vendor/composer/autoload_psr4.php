@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'QL\\' => array($vendorDir . '/jaeger/querylist'),
     'PhalApi\\Task\\' => array($vendorDir . '/phalapi/task/src'),
     'PhalApi\\NotORM\\' => array($vendorDir . '/phalapi/notorm/src'),
     'PhalApi\\' => array($vendorDir . '/phalapi/kernal/src'),
